@@ -168,6 +168,42 @@ Ces données pourront ensuite être utilisées pour comparer les performances co
 
 ---
 
+## Utilisation de l'intelligence artificielle
+
+L'intelligence artificielle a été utilisée dans ce projet comme **outil d'assistance et d'apprentissage**, et non comme remplacement du travail d'analyse.
+
+Son rôle principal a été de m'accompagner dans ma progression en SQL et dans la structuration du projet.
+
+Elle a notamment été utilisée pour :
+
+* Expliquer des concepts SQL que je ne maîtrisais pas encore.
+* Donner des exemples simples avant de passer aux requêtes du projet.
+* Me proposer des exercices adaptés à ma progression.
+* Donner des indices lorsque je bloquais sur une requête.
+* Identifier et expliquer mes erreurs de syntaxe ou de raisonnement.
+* M'aider à comprendre les relations entre les différentes tables.
+* M'aider à structurer la documentation du projet.
+* Vérifier la cohérence générale de certaines étapes.
+
+L'objectif n'était pas de déléguer la réflexion ou l'analyse à l'IA, mais de l'utiliser comme un **assistant pédagogique**.
+
+Par exemple, lors de l'apprentissage des `JOIN`, je construisais moi-même les relations entre les tables à partir des clés primaires et étrangères. Lorsque ma requête était incorrecte, l'IA m'expliquait l'erreur et me guidait vers la bonne logique.
+
+La même méthode est utilisée pour les notions comme :
+
+* `JOIN`
+* `COUNT()`
+* `SUM()`
+* `GROUP BY`
+* Les fonctions d'agrégation
+* Les futures requêtes d'analyse
+
+Les requêtes importantes du projet sont ainsi comprises et travaillées progressivement avant d'être intégrées à l'analyse finale.
+
+Cette approche me permet d'utiliser l'IA comme un outil de formation et de vérification tout en développant mes propres compétences en analyse de données.
+
+---
+
 ## État actuel du projet
 
 Étapes terminées :
