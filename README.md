@@ -45,6 +45,19 @@ La base contient actuellement 15 tables :
 
 La base utilise des clés primaires et des clés étrangères afin de relier les différentes entités comme les clients, commandes, produits, variantes, campagnes marketing et promotions.
 
+Par exemple :
+
+* Les clients sont reliés aux commandes.
+* Les commandes sont reliées aux articles commandés.
+* Les articles commandés sont reliés aux variantes de produits.
+* Les variantes sont reliées aux produits et aux couleurs.
+* Les commandes peuvent être reliées aux campagnes marketing.
+* Les produits peuvent être reliés aux promotions et aux saisons.
+
+Cette structure permet d'analyser plusieurs parties de l'activité sans stocker toutes les informations dans une seule table.
+
+---
+
 ## Génération des données
 
 Les données utilisées dans ce projet sont **synthétiques**.
@@ -65,6 +78,18 @@ Le jeu de données synthétique contient notamment :
 * Les promotions
 
 Ces données simulent les premières activités d'un e-commerce et seront ensuite utilisées pour étudier les facteurs pouvant être associés aux performances des premières ventes.
+
+Parmi les facteurs qui pourront être analysés :
+
+* Les performances des produits
+* Les variantes de produits
+* Les prix
+* Les promotions
+* Les campagnes marketing
+* Les plateformes publicitaires
+* Le trafic du site web
+* Le comportement des clients
+* Le volume de commandes
 
 ---
 
@@ -115,6 +140,16 @@ La base contient des informations sur les campagnes marketing telles que :
 
 Les données de trafic du site web sont enregistrées séparément et peuvent être reliées aux campagnes marketing.
 
+Cela permettra ensuite de calculer différents indicateurs marketing comme :
+
+* Le taux de clic
+* Le coût par clic
+* Le taux de conversion
+* Le coût d'acquisition client
+* Le retour sur dépenses publicitaires
+
+---
+
 ## Promotions
 
 La base contient une promotion de lancement simulée.
@@ -158,7 +193,7 @@ Ces données pourront ensuite être utilisées pour comparer les performances co
 Notions SQL actuellement étudiées :
 
 * Les jointures SQL (`JOIN`)
-* Les fonctions d’agrégation
+* Les fonctions d'agrégation
 * `COUNT()`
 * `SUM()`
 * `GROUP BY`
@@ -167,23 +202,23 @@ Notions SQL actuellement étudiées :
 
 ## Prochaines étapes
 
-La prochaine phase du projet sera consacrée à l’analyse SQL.
+La prochaine phase du projet sera consacrée à l'analyse SQL.
 
-L’analyse inclura progressivement :
+L'analyse inclura progressivement :
 
 * Les ventes par produit
-* Le chiffre d’affaires par produit
-* Le chiffre d’affaires par commande
+* Le chiffre d'affaires par produit
+* Le chiffre d'affaires par commande
 * Les performances des variantes
-* Le comportement d’achat des clients
+* Le comportement d'achat des clients
 * Les performances des campagnes marketing
-* L’analyse du trafic du site web
-* L’impact des promotions
+* L'analyse du trafic du site web
+* L'impact des promotions
 * Les métriques de conversion
 
 Les résultats des analyses SQL seront ensuite utilisés dans Excel et Power BI.
 
-L’objectif final sera d’utiliser le jeu de données simulé pour répondre à la question principale :
+L'objectif final sera d'utiliser le jeu de données simulé pour répondre à la question principale :
 
 **Quels facteurs influencent le plus les premières ventes d’un e-commerce ?**
 
