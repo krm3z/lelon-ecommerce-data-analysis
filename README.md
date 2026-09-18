@@ -114,3 +114,77 @@ La base contient des informations sur les campagnes marketing telles que :
 * Les partages
 
 Les données de trafic du site web sont enregistrées séparément et peuvent être reliées aux campagnes marketing.
+
+## Promotions
+
+La base contient une promotion de lancement simulée.
+
+Le prix standard des produits est de :
+
+**40 €**
+
+Le prix de lancement simulé est de :
+
+**35 €**
+
+Une promotion de lancement a été créée afin de représenter la période initiale des ventes.
+
+Ces données pourront ensuite être utilisées pour comparer les performances commerciales pendant et en dehors de la période promotionnelle.
+
+---
+
+## État actuel du projet
+
+Étapes terminées :
+
+* Installation et configuration de PostgreSQL
+* Création de la base de données
+* Conception du schéma relationnel
+* Création de 15 tables
+* Mise en place des clés primaires
+* Mise en place des clés étrangères
+* Insertion des produits
+* Insertion des variantes de produits
+* Insertion des couleurs
+* Insertion des saisons
+* Insertion des clients
+* Insertion des commandes
+* Insertion des articles commandés
+* Insertion des campagnes marketing
+* Insertion du trafic du site web
+* Insertion des promotions
+* Création des relations entre produits et promotions
+
+Notions SQL actuellement étudiées :
+
+* Les jointures SQL (`JOIN`)
+* Les fonctions d’agrégation
+* `COUNT()`
+* `SUM()`
+* `GROUP BY`
+
+---
+
+## Prochaines étapes
+
+La prochaine phase du projet sera consacrée à l’analyse SQL.
+
+L’analyse inclura progressivement :
+
+* Les ventes par produit
+* Le chiffre d’affaires par produit
+* Le chiffre d’affaires par commande
+* Les performances des variantes
+* Le comportement d’achat des clients
+* Les performances des campagnes marketing
+* L’analyse du trafic du site web
+* L’impact des promotions
+* Les métriques de conversion
+
+Les résultats des analyses SQL seront ensuite utilisés dans Excel et Power BI.
+
+L’objectif final sera d’utiliser le jeu de données simulé pour répondre à la question principale :
+
+**Quels facteurs influencent le plus les premières ventes d’un e-commerce ?**
+
+Les données étant synthétiques, les conclusions décriront les tendances observées dans le scénario simulé et ne seront pas présentées comme une preuve de causalité dans le monde réel.
